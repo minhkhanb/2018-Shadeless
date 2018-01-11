@@ -1,0 +1,16 @@
+_tmpres/
+src/_win/Debug/
+src/_win/.vs/
+bin/Res_IOS/
+bin/res/
+src/_android/build/
+src/_android/.gradle/
+src/_android/libs/armeabi/
+src/_android/obj/
+src/_android/assets/
+Tools/GDS_Exporter/#temp/
+Tools/GDS_Exporter/data/
+Tools/GDS_Exporter/Release/
+bin/_win/
+bin/Res_Android/
+src/_android/.idea/

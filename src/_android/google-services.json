@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "662974108520",
+    "firebase_url": "https://shadeless-18432532.firebaseio.com",
+    "project_id": "shadeless-18432532",
+    "storage_bucket": "shadeless-18432532.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662974108520:android:15fb004468ab9330",
+        "android_client_info": {
+          "package_name": "topebox.game.shadeless"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662974108520-t0ppbvpa0n90n6qjprq4k2u9aqt4kmc8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "662974108520-4ri6lqhs6caq09uqfopk0vagl1obanat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "topebox.game.shadeless",
+            "certificate_hash": "912f6528695415543d7f59220e8e8b4611ab4d87"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrHh92H5zy6yG8E0kn6VxkFzpIeBNdseY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662974108520-t0ppbvpa0n90n6qjprq4k2u9aqt4kmc8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

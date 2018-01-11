@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceManager>
+  <FileInfo Version="1.1" />
+  <GFX>
+    <SupportVersions>
+      <Version Name="750_1334" Width="750" Height="1334" MainVersion="1" />
+    </SupportVersions>
+    <Packages>
+      <Package Name="font" />
+      <Package Name="adsvert" />
+      <Package Name="object" />
+      <Package Name="hud" />
+    </Packages>
+    <Items>
+      <Item Name="pine_advert" />
+      <Item Name="font_advert" />
+      <Item Name="object_circle" />
+      <Item Name="hud_mainmenu" />
+      <Item Name="fonts_high_score" />
+      <Item Name="fonts_best_score" />
+      <Item Name="hud_setting" />
+      <Item Name="object_loading" />
+      <Item Name="hud_newhighscore" />
+      <Item Name="hud_share" />
+      <Item Name="hud_rate_us" />
+      <Item Name="object_bg" />
+      <Item Name="object_logo" />
+      <Item Name="hud_share_android" />
+      <Item Name="hud_googleplay" />
+      <Item Name="font_name_facebook" />
+      <Item Name="hud_topebox_ads" />
+    </Items>
+    <VersionItems>
+      <VersionItem Version="750_1334">
+        <Item Item="pine_advert" Path="null.bpine" Package="adsvert" />
+        <Item Item="font_advert" Path="font.bpine" Package="adsvert" />
+        <Item Item="object_circle" Path="object_circle_i6.bpine" Package="object" />
+        <Item Item="hud_mainmenu" Path="hud_mainmenu_i6.bpine" Package="hud" />
+        <Item Item="fonts_high_score" Path="fonts_high_score_i6.bpine" Package="font" />
+        <Item Item="fonts_best_score" Path="fonts_best_score_i6.bpine" Package="font" />
+        <Item Item="hud_setting" Path="hud_setting_i6.bpine" Package="hud" />
+        <Item Item="object_loading" Path="object_loading_i6.bpine" Package="object" />
+        <Item Item="hud_newhighscore" Path="hud_newhighscore_i6.bpine" Package="hud" />
+        <Item Item="hud_share" Path="hud_share_i6.bpine" Package="hud" />
+        <Item Item="hud_rate_us" Path="hud_rateus_i6.bpine" Package="hud" />
+        <Item Item="object_bg" Path="object_bg_i6.bpine" Package="object" />
+        <Item Item="object_logo" Path="object_logo_i6.bpine" Package="object" />
+        <Item Item="hud_share_android" Path="hud_share_android_i6.bpine" Package="hud" />
+        <Item Item="hud_googleplay" Path="hud_googleplay.bpine" Package="hud" />
+        <Item Item="font_name_facebook" Path="font_name_facebook_01_i6.bpine" Package="font" />
+        <Item Item="hud_topebox_ads" Path="hud_topebox_ads_i6.bpine" Package="hud" />
+      </VersionItem>
+    </VersionItems>
+  </GFX>
+  <Sounds>
+    <Sound Name="bgm_mainmenu" Path="bgm_mainmenu.mp3" />
+    <Sound Name="sfx_button_1" Path="sfx_button_1.wav" />
+    <Sound Name="sfx_button_2" Path="sfx_button_2.wav" />
+    <Sound Name="sfx_button_3" Path="sfx_button_3.wav" />
+    <Sound Name="sfx_color_change" Path="sfx_color_change.wav" />
+    <Sound Name="sfx_ingame_highscore" Path="sfx_ingame_highscore.wav" />
+    <Sound Name="sfx_score" Path="sfx_score.wav" />
+    <Sound Name="sfx_share" Path="sfx_share.wav" />
+    <Sound Name="sfx_share_screen" Path="sfx_share_screen.wav" />
+    <Sound Name="sfx_wheel" Path="sfx_wheel.wav" />
+    <Sound Name="sfx_shadeless" Path="sfx_shadeless.wav" />
+    <Sound Name="sfx_tap_gift_box" Path="sfx_tap_gift_box.wav" />
+  </Sounds>
+  <ProjectSettings>
+    <ResourceManifestHeader><![CDATA[./../src/game/Define]]></ResourceManifestHeader>
+    <ResourceManifestCPP><![CDATA[./../src/game/GamePlay]]></ResourceManifestCPP>
+  </ProjectSettings>
+  <Targets>
+    <Target Name="Simulator" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/res]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+    <Target Name="IOS" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/Res_IOS]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+    <Target Name="Android" AddNoise="1" GroupSFX="1">
+      <ResourceDirectory><![CDATA[./../_tmpres]]></ResourceDirectory>
+      <OutputDirectory><![CDATA[./../bin/Res_Android]]></OutputDirectory>
+      <Versions>
+        <Version Name="750_1334" />
+      </Versions>
+    </Target>
+  </Targets>
+</ResourceManager>
